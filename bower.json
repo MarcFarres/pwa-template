@@ -1,0 +1,21 @@
+{
+  "name": "pwa-template",
+  "description": "pwa template",
+  "main": "index.html",
+  "authors": [
+    "Marc Farrés"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/d3IM0S/pwa-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0"
+  }
+}

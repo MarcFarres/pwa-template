@@ -1,0 +1,26 @@
+{
+  "name": "pwa-template",
+  "version": "1.0.0",
+  "description": "pwa template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3IM0S/pwa-template.git"
+  },
+  "author": "Marc Farrés",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d3IM0S/pwa-template/issues"
+  },
+  "homepage": "https://github.com/d3IM0S/pwa-template#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "bower": "^1.8.2"
+  }
+}
