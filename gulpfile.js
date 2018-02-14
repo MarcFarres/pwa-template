@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
-
+var gulpif = require('gulp-if');
 
 // Get tasks from gulp-tasks directory
 require('require-dir')('gulp-config');
@@ -14,6 +14,7 @@ gulp.task('default',() => {
 		'clean',
 		'js_libs',
 		['html','js','compileStyles'], 
+		'plugins',
 		'images', 
 		'watch',
 		);
