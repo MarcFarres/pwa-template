@@ -22,9 +22,12 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
     "gulp-processhtml": "^1.2.0",
+    "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "path": "^0.12.7",
+    "require-dir": "^1.0.0",
     "run-sequence": "^2.2.1"
   }
 }
