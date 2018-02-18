@@ -1,6 +1,7 @@
 global.config = {
   folders:{
-	dist:'../../../xampp/htdocs/pwa-template/dist',
+  dist:'docs',
+	//dist:'../../../xampp/htdocs/pwa-template/dist',
 	assets:'assets'
   },
   port: 8080,
