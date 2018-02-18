@@ -9,6 +9,7 @@ global.paths = {
     fonts : path.join(config.folders.dist,config.folders.assets, 'fonts'),
     css : path.join(config.folders.dist,config.folders.assets, 'css'),
     img : path.join(config.folders.dist,config.folders.assets, 'images'),
+    icons : path.join(config.folders.dist,config.folders.assets, 'images','icons'),
     watch: {
 	  frontend: [
 		'src/scss/**/*.scss',

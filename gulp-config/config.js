@@ -1,11 +1,10 @@
 global.config = {
   folders:{
-	dist:'docs',
+	dist:'../../../xampp/htdocs/pwa-template/dist',
 	assets:'assets'
   },
   port: 8080,
   license: 'Apache',
-  distMode: true,
   licenseOptions: {
     organization: 'Eurega.es - All rights reserved.'
   },

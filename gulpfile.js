@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
-var gulpif = require('gulp-if');
 
 // Get tasks from gulp-tasks directory
 require('require-dir')('gulp-config');
@@ -12,18 +11,20 @@ require('require-dir')('gulp-tasks');
 gulp.task('default',() => {
 	runSequence(
 		'clean',
-		'js_libs',
-		['html','js','compileStyles'], 
+		['serviceworker','manifest'],
+		['js_libs','js','compileStyles'], 
 		'plugins',
 		'images', 
-		'watch',
+		'html',
+		['connect','watch']
 		);
 });
 
 gulp.task('onSaveFrontend',() => {
 	runSequence(
 		'compileStyles',
-		'html','js',
+		'js',
+		'html',
 		);
 });
 

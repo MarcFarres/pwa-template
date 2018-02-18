@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var processHtml = require('gulp-processhtml');
 var path = require('path');
+var connect = require('gulp-connect');
 
 gulp.task('html',function(){
 
@@ -14,5 +15,6 @@ gulp.task('html',function(){
     	enviroment : targets.dev.enviroment, // el target usado
     	data : targets.dev.data, // las variables que queremos enviar para el procesado
     }))
-    .pipe(gulp.dest(path.join(paths.html)));
+    .pipe(gulp.dest(path.join(paths.html)))
+    .pipe(connect.reload());
 });
